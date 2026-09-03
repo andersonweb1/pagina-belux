@@ -385,69 +385,6 @@ a {
     font-weight: bold;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 800px) {
-    .nav-content {
-        width: 90%;
-    }
-
-    .menu {
-        gap: 12px;
-    }
-
-    .menu a:not(.download) {
-        display: none;
-    }
-
-    .hero {
-        flex-direction: column;
-    }
-
-    .hero-text,
-    .hero-image {
-        width: 100%;
-    }
-
-    .hero-text {
-        min-height: 450px;
-    }
-
-    .hero-image {
-        min-height: 450px;
-    }
-
-    .hero-inner {
-        width: 82%;
-    }
-
-    .feature-content {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .feature-image,
-    .feature-text {
-        width: 90%;
-    }
-
-    .plans {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .plan {
-        width: min(350px, 100%);
-    }
-
-    .footer {
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-    }
-}
 
 
 
