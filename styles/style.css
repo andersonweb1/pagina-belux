@@ -24,7 +24,7 @@ a {
     background: #1c162e;
 }
 
-.nav-contentenedor {
+.nav-contenedor {
     width: 72%;
     height: 100%;
     margin: auto;
@@ -36,7 +36,7 @@ a {
 .logo img {
     width: 125px;
     height: auto;
-
+    display: block;
 }
 
 .menu {
@@ -62,36 +62,33 @@ a {
     border-radius: 3px;
 }
 
+/*encabezado*/
 
-/* =========================
-   HERO
-========================= */
-
-.hero {
+.encabezado {
     min-height: 590px;
     display: flex;
 }
 
-.hero-text {
+.encabezado-texto {
     width: 50%;
     background: #302754;
     display: flex;
     align-items: center;
 }
 
-.hero-inner {
+.encabezado-titulo {
     width: 72%;
     margin: auto;
 }
 
-.hero-inner h1 {
+.encabezado-titulo h1 {
     color: white;
     font-size: 52px;
     line-height: 1.05;
     margin-bottom: 28px;
 }
 
-.hero-inner p {
+.encabezado-titulo p {
     width: 410px;
     color: #f0eef5;
     font-size: 16px;
@@ -99,7 +96,7 @@ a {
     margin-bottom: 30px;
 }
 
-.hero-buttons {
+.encabezado-buttons {
     display: flex;
     gap: 7px;
     padding: 5px;
@@ -115,42 +112,40 @@ a {
     border-radius: 3px;
 }
 
-.pink-btn {
+.btn1-rosa {
     background: white;
     color: #ed4599;
 }
 
-.outline-btn {
+.btn2-features {
     color: white;
     border: 1px solid white;
     min-width: 130px;
     text-align: center;
 }
 
-.hero-image {
+.encabezado-hoja {
     width: 50%;
     background-image: linear-gradient(rgba(20, 15, 28, .48), rgba(20, 15, 28, .48)), url("../assets/images/hojasFondo.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
     position: relative;
 }
+
 
 .celular{
 
     height: 490px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 250px;
     margin-left: 150px;
 }
 
 
 
-/* =========================
-   FEATURES
-========================= */
+/*features*/
 
 .features {
     min-height: 485px;
@@ -165,7 +160,7 @@ a {
     margin-bottom: 42px;
 }
 
-.feature-content {
+.feature-contenido {
     max-width: 790px;
     margin: auto;
     display: flex;
@@ -173,60 +168,58 @@ a {
     gap: 75px;
 }
 
-.feature-image {
+.feature-pc {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.feature-image img {
+.feature-pc img {
     width: 100%;
     max-width: 390px;
     height: auto;
 }
 
-.feature-text {
+.feature-texto {
     width: 50%;
 }
 
-.feature-text h3 {
+.feature-texto h3 {
     color: #d94b9d;
     font-size: 28px;
     font-weight: normal;
     margin-bottom: 28px;
 }
 
-.feature-text p {
+.feature-texto p {
     color: #666;
     font-size: 13px;
     line-height: 1.45;
     margin-bottom: 8px;
 }
 
-.feature-text h4 {
+.feature-texto h4 {
     color: #e72a91;
     font-size: 15px;
     font-weight: normal;
     margin: 10px 0 4px;
 }
 
-.feature-text ul {
+.feature-texto ul {
     list-style: none;
     color: #666;
     font-size: 13px;
     line-height: 1.45;
 }
 
-.feature-text li::before {
+.feature-texto li::before {
     content: "✓";
     color: #ed2a92;
     font-weight: bold;
     margin-right: 5px;
 }
 
-/* =========================
-   PRICING
-========================= */
+/*pricing*/
 
 .pricing {
     background: #1c162e;
@@ -240,7 +233,7 @@ a {
     margin-bottom: 30px;
 }
 
-.pricing-description {
+.pricing-descripcion {
     max-width: 710px;
     margin: auto;
     text-align: center;
@@ -250,7 +243,7 @@ a {
     margin-bottom: 42px;
 }
 
-.plans {
+.planes {
     max-width: 820px;
     margin: auto;
     display: flex;
@@ -363,9 +356,7 @@ a {
     background: #ec3b9c;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/*footer*/
 
 .footer {
     min-height: 70px;
@@ -457,3 +448,9 @@ a {
         padding: 20px;
     }
 }
+
+
+
+/*Media Queries*/
+
+
