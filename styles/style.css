@@ -101,7 +101,7 @@ a {
     gap: 7px;
     padding: 5px;
     width: max-content;
-    border: 2px solid rgba(255,255,255,.25);
+    border: 2px solid rgba(255, 255, 255, .25);
     border-radius: 5px;
 }
 
@@ -135,7 +135,7 @@ a {
 }
 
 
-.celular{
+.celular {
 
     height: 490px;
     margin-top: 10px;
@@ -349,7 +349,7 @@ a {
     font-size: 12px;
     padding: 9px 20px;
     border-radius: 3px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
 }
 
 .plan:first-child .subscribe a {
@@ -393,7 +393,7 @@ a {
    ========================= */
 
 /* TABLETS */
-@media (max-width: 900px) {
+@media (max-width: 1280px) {
 
     .nav-contenedor {
         width: 90%;
@@ -466,7 +466,7 @@ a {
 
 
 /* CELULARES */
-@media (max-width: 700px) {
+@media (max-width: 920px) {
 
     /* NAVBAR */
 
@@ -621,7 +621,7 @@ a {
 
 
 /* CELULARES PEQUEÑOS */
-@media (max-width: 450px) {
+@media (max-width: 768px) {
 
     .logo img {
         width: 105px;
@@ -704,5 +704,3 @@ a {
         font-size: 11px;
     }
 }
-
-
