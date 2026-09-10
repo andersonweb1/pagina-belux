@@ -388,6 +388,321 @@ a {
 
 
 
-/*Media Queries*/
+/* =========================
+   MEDIA QUERIES
+   ========================= */
+
+/* TABLETS */
+@media (max-width: 900px) {
+
+    .nav-contenedor {
+        width: 90%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    /* Encabezado */
+
+    .encabezado {
+        min-height: 520px;
+    }
+
+    .encabezado-titulo {
+        width: 85%;
+    }
+
+    .encabezado-titulo h1 {
+        font-size: 45px;
+    }
+
+    .encabezado-titulo p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .celular {
+        height: 400px;
+        width: auto;
+        margin-left: 50px;
+    }
+
+    /* Features */
+
+    .features {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .feature-contenido {
+        gap: 40px;
+    }
+
+    .feature-texto h3 {
+        font-size: 24px;
+    }
+
+    /* Pricing */
+
+    .pricing {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .planes {
+        gap: 15px;
+    }
+
+    .plan-description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+/* CELULARES */
+@media (max-width: 700px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .nav-contenedor {
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .menu .download {
+        padding: 9px 15px;
+    }
+
+
+    /* ENCABEZADO */
+
+    .encabezado {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .encabezado-texto {
+        width: 100%;
+        padding: 60px 0;
+    }
+
+    .encabezado-titulo {
+        width: 85%;
+        text-align: center;
+    }
+
+    .encabezado-titulo h1 {
+        font-size: 42px;
+    }
+
+    .encabezado-titulo p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .encabezado-buttons {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .encabezado-hoja {
+        width: 100%;
+        min-height: 430px;
+        justify-content: center;
+    }
+
+    .celular {
+        height: 370px;
+        width: auto;
+        margin: 0;
+    }
+
+
+    /* FEATURES */
+
+    .features {
+        padding: 40px 7%;
+    }
+
+    .features h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .feature-contenido {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .feature-pc {
+        width: 100%;
+    }
+
+    .feature-pc img {
+        max-width: 350px;
+    }
+
+    .feature-texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature-texto h3 {
+        font-size: 25px;
+    }
+
+    .feature-texto ul {
+        text-align: left;
+        display: inline-block;
+    }
+
+
+    /* PRICING */
+
+    .pricing {
+        padding: 40px 7%;
+    }
+
+    .pricing h2 {
+        font-size: 32px;
+    }
+
+    .pricing-descripcion {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .planes {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+}
+
+
+/* CELULARES PEQUEÑOS */
+@media (max-width: 450px) {
+
+    .logo img {
+        width: 105px;
+    }
+
+    .menu {
+        gap: 8px;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+    .menu .download {
+        padding: 8px 12px;
+    }
+
+    /* Encabezado */
+
+    .encabezado-texto {
+        padding: 45px 0;
+    }
+
+    .encabezado-titulo h1 {
+        font-size: 36px;
+    }
+
+    .encabezado-titulo p {
+        font-size: 13px;
+    }
+
+    .encabezado-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .encabezado-hoja {
+        min-height: 350px;
+    }
+
+    .celular {
+        height: 310px;
+    }
+
+    /* Features */
+
+    .features h2 {
+        font-size: 28px;
+    }
+
+    .feature-pc img {
+        max-width: 280px;
+    }
+
+    .feature-texto h3 {
+        font-size: 23px;
+    }
+
+    /* Pricing */
+
+    .pricing h2 {
+        font-size: 28px;
+    }
+
+    .pricing-descripcion {
+        font-size: 11px;
+    }
+
+    .plan {
+        max-width: 100%;
+    }
+
+    /* Footer */
+
+    .footer {
+        font-size: 11px;
+    }
+}
 
 
