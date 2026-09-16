@@ -388,104 +388,167 @@ a {
 
 
 
-/* =========================
-   MEDIA QUERIES
-   ========================= */
 
-/* TABLETS */
-@media (max-width: 1280px) {
+@media (min-width: 921px) and (max-width: 1279px) {
+    .nav-contenedor {
+        width: 86%;
+    }
 
+    .menu {
+        gap: 20px;
+    }
+
+    .encabezado-titulo {
+        width: 82%;
+    }
+
+    .encabezado-titulo h1 {
+        font-size: 48px;
+    }
+
+    .encabezado-titulo p {
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .celular {
+        width: 215px;
+        height: 425px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .features {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .feature-contenido {
+        max-width: 850px;
+        gap: 45px;
+    }
+
+    .feature-pc img {
+        max-width: 360px;
+    }
+
+    .planes {
+        max-width: 900px;
+        gap: 20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 920px) {
     .nav-contenedor {
         width: 90%;
     }
 
     .menu {
-        gap: 15px;
+        gap: 14px;
     }
 
     .menu a {
         font-size: 12px;
     }
 
-    /* Encabezado */
+    .menu .download {
+        padding: 9px 14px;
+    }
 
     .encabezado {
-        min-height: 520px;
+        min-height: 500px;
     }
 
     .encabezado-titulo {
-        width: 85%;
+        width: 82%;
     }
 
     .encabezado-titulo h1 {
-        font-size: 45px;
+        font-size: 43px;
     }
 
     .encabezado-titulo p {
         width: 100%;
+        max-width: 330px;
         font-size: 14px;
     }
 
     .celular {
-        height: 400px;
-        width: auto;
-        margin-left: 50px;
+        width: 190px;
+        height: 375px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
-    /* Features */
-
     .features {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding: 34px 6% 40px;
+    }
+
+    .features h2,
+    .pricing h2 {
+        font-size: 34px;
     }
 
     .feature-contenido {
-        gap: 40px;
+        max-width: 760px;
+        gap: 35px;
+    }
+
+    .feature-pc img {
+        max-width: 320px;
     }
 
     .feature-texto h3 {
-        font-size: 24px;
-    }
-
-    /* Pricing */
-
-    .pricing {
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
     .planes {
-        gap: 15px;
+        max-width: 760px;
+        gap: 14px;
+    }
+
+    .features-list {
+        padding-left: 18px;
+        padding-right: 18px;
     }
 
     .plan-description {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .footer {
+        padding-left: 7%;
+        padding-right: 7%;
     }
 }
 
 
-/* CELULARES */
-@media (max-width: 920px) {
-
-    /* NAVBAR */
-
+@media (min-width: 481px) and (max-width: 768px) {
     .navbar {
         height: auto;
-        padding: 15px 0;
+        min-height: 58px;
     }
 
     .nav-contenedor {
         width: 90%;
-        flex-direction: column;
-        gap: 15px;
+        min-height: 58px;
+        padding: 10px 0;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .logo img {
+        width: 110px;
     }
 
     .menu {
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 12px 18px;
     }
 
     .menu a {
@@ -496,139 +559,129 @@ a {
         padding: 9px 15px;
     }
 
-
-    /* ENCABEZADO */
-
     .encabezado {
-        flex-direction: column;
         min-height: auto;
+        flex-direction: column;
+    }
+
+    .encabezado-texto,
+    .encabezado-hoja {
+        width: 100%;
     }
 
     .encabezado-texto {
-        width: 100%;
-        padding: 60px 0;
+        min-height: 400px;
+        padding: 55px 0;
     }
 
     .encabezado-titulo {
-        width: 85%;
-        text-align: center;
+        width: 82%;
     }
 
     .encabezado-titulo h1 {
-        font-size: 42px;
+        font-size: 46px;
     }
 
     .encabezado-titulo p {
         width: 100%;
-        font-size: 14px;
-    }
-
-    .encabezado-buttons {
-        margin: auto;
-        justify-content: center;
+        max-width: 500px;
     }
 
     .encabezado-hoja {
-        width: 100%;
         min-height: 430px;
-        justify-content: center;
+        padding: 35px 0;
     }
 
     .celular {
-        height: 370px;
-        width: auto;
-        margin: 0;
+        width: 205px;
+        height: 390px;
+        margin: 0 auto;
     }
-
-
-    /* FEATURES */
 
     .features {
-        padding: 40px 7%;
+        padding: 35px 8% 45px;
     }
 
-    .features h2 {
-        font-size: 32px;
+    .features h2,
+    .pricing h2 {
+        font-size: 35px;
         margin-bottom: 30px;
     }
 
     .feature-contenido {
+        max-width: 560px;
         flex-direction: column;
         gap: 35px;
     }
 
-    .feature-pc {
+    .feature-pc,
+    .feature-texto {
         width: 100%;
     }
 
     .feature-pc img {
-        max-width: 350px;
-    }
-
-    .feature-texto {
-        width: 100%;
-        text-align: center;
+        width: 80%;
+        max-width: 390px;
     }
 
     .feature-texto h3 {
-        font-size: 25px;
+        font-size: 27px;
     }
-
-    .feature-texto ul {
-        text-align: left;
-        display: inline-block;
-    }
-
-
-    /* PRICING */
 
     .pricing {
-        padding: 40px 7%;
-    }
-
-    .pricing h2 {
-        font-size: 32px;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .pricing-descripcion {
-        font-size: 12px;
-        margin-bottom: 30px;
+        max-width: 560px;
+        margin-bottom: 32px;
     }
 
     .planes {
+        max-width: 430px;
         flex-direction: column;
-        gap: 25px;
+        gap: 22px;
     }
 
     .plan {
         width: 100%;
-        max-width: 400px;
-        margin: auto;
     }
-
-
-    /* FOOTER */
 
     .footer {
+        padding: 18px 8%;
         flex-direction: column;
         justify-content: center;
-        gap: 15px;
-        padding: 20px;
+        gap: 12px;
         text-align: center;
     }
-
 }
 
 
-/* CELULARES PEQUEÑOS */
-@media (max-width: 768px) {
+@media (min-width: 352px) and (max-width: 480px) {
+    .navbar {
+        height: auto;
+        min-height: 58px;
+    }
+
+    .nav-contenedor {
+        width: 90%;
+        min-height: 58px;
+        padding: 9px 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
 
     .logo img {
         width: 105px;
     }
 
     .menu {
-        gap: 8px;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 9px 13px;
     }
 
     .menu a {
@@ -639,10 +692,160 @@ a {
         padding: 8px 12px;
     }
 
-    /* Encabezado */
+    .encabezado {
+        min-height: auto;
+        flex-direction: column;
+    }
+
+    .encabezado-texto,
+    .encabezado-hoja {
+        width: 100%;
+    }
 
     .encabezado-texto {
+        min-height: 365px;
         padding: 45px 0;
+    }
+
+    .encabezado-titulo {
+        width: 84%;
+    }
+
+    .encabezado-titulo h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .encabezado-titulo p {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .encabezado-buttons {
+        width: 100%;
+        max-width: 290px;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 12px;
+    }
+
+    .encabezado-hoja {
+        min-height: 360px;
+        padding: 30px 0;
+    }
+
+    .celular {
+        width: 170px;
+        height: 325px;
+        margin: 0 auto;
+    }
+
+    .features {
+        padding: 30px 7% 40px;
+    }
+
+    .features h2,
+    .pricing h2 {
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+
+    .feature-contenido {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature-pc,
+    .feature-texto {
+        width: 100%;
+    }
+
+    .feature-pc img {
+        width: 92%;
+        max-width: 350px;
+    }
+
+    .feature-texto h3 {
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+
+    .feature-texto p,
+    .feature-texto ul {
+        font-size: 12px;
+    }
+
+    .pricing {
+        padding: 32px 7% 40px;
+    }
+
+    .pricing-descripcion {
+        font-size: 11px;
+        margin-bottom: 28px;
+    }
+
+    .planes {
+        width: 100%;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    .plan-description {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .footer {
+        min-height: 90px;
+        padding: 18px 7%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 351px) {
+    .nav-contenedor {
+        width: 92%;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 10px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .encabezado-texto,
+    .encabezado-hoja {
+        width: 100%;
+    }
+
+    .encabezado-texto {
+        padding: 40px 0;
+    }
+
+    .encabezado-titulo {
+        width: 86%;
     }
 
     .encabezado-titulo h1 {
@@ -650,57 +853,45 @@ a {
     }
 
     .encabezado-titulo p {
+        width: 100%;
         font-size: 13px;
     }
 
     .encabezado-buttons {
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
     }
 
     .btn {
-        width: 100%;
+        text-align: center;
     }
 
     .encabezado-hoja {
-        min-height: 350px;
+        min-height: 330px;
+        padding: 25px 0;
     }
 
     .celular {
-        height: 310px;
+        width: 155px;
+        height: 295px;
+        margin: 0 auto;
     }
 
-    /* Features */
-
-    .features h2 {
-        font-size: 28px;
+    .feature-contenido,
+    .planes {
+        flex-direction: column;
     }
 
-    .feature-pc img {
-        max-width: 280px;
-    }
-
-    .feature-texto h3 {
-        font-size: 23px;
-    }
-
-    /* Pricing */
-
-    .pricing h2 {
-        font-size: 28px;
-    }
-
-    .pricing-descripcion {
-        font-size: 11px;
-    }
-
+    .feature-pc,
+    .feature-texto,
     .plan {
-        max-width: 100%;
+        width: 100%;
     }
-
-    /* Footer */
 
     .footer {
-        font-size: 11px;
+        flex-direction: column;
+        gap: 10px;
+        padding: 18px 7%;
+        text-align: center;
     }
 }
